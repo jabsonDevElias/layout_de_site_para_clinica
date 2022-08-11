@@ -1,0 +1,222 @@
+@media screen and (max-width: 1280px){
+
+   
+
+  
+    header {
+    	background-image: url('../img/banner_medio.png');
+    	background-position: top;
+ 
+    }
+
+    .contatos_form{
+        width: 50%;
+    }
+
+    .contatos_form form{
+        width: 95%;
+    }
+
+    .map{
+        width: 50%;
+    }
+
+    .map iframe{
+        width: 100%;
+    }
+
+    .card_equipe ul{
+        width: 100%;
+    }
+
+    .equipe_redes_sociais{
+        width: 100%;
+        padding: 0px;
+    }
+   
+
+    .rodape_logo, .rodape_historico, .rodape_redes_sociais{
+    width: 50%;
+    margin-top: 20px;
+    }
+    
+
+
+
+
+}
+
+
+@media screen and (max-width: 790px){
+
+    .menu{
+        display: none;
+    }
+      .mobile{       
+       display: flex;
+       background-color: #393e46;  
+       width: 100%;
+       z-index: 999;
+    }
+
+    .mobile ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 35px;
+        padding: 15px 0;
+           
+    }
+
+    .mobile a{
+        color: #fff;
+    }
+
+    .menu_mobile{
+        display: none;
+    }
+
+    .menu_mobile ul{
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 40px;
+        border-top: 2px solid #fff;
+    }
+
+    .menu_mobile li{
+        margin-top: 20px;
+    }
+    
+    .menu_mobile a:active{
+        transition: 2s all;
+        color: #2eb872;
+    }
+
+	header {
+    	background-image: url('../img/Banner_mobile.png');
+ 
+    }
+
+    .card_servicos{
+    	width: 85%;
+    	top: -50px;
+    	margin-top: 20px;
+    }
+
+    .sobre h2{
+        text-align: center;
+    }
+
+    .sobre_texto{
+        width: 100%;
+    }
+
+    .sobre_obj{
+    margin-top: -40px;
+    width: 100%;
+    
+    }
+
+    .sobre_obj_metas{
+    width: 100%;
+    }
+
+    .slide_texto{
+    order: 2;
+    width: 100%;
+    margin: 0 auto;
+
+    }
+
+    .cont_slide{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .slide_texto hr{
+        margin: 0 auto;
+    }
+
+    .slide_texto h2{
+        font-size: 30px;
+    }
+
+    .slide_texto p{
+        text-align: center;
+    }
+
+    .slide_texto img{
+    width: 60%;
+    }
+
+    .img_texto{
+    order: 1;
+    width: 100%;
+    }
+
+    .btn_slide{
+        position: relative;
+
+    }
+    
+    .slid_set{
+        display: none;
+    }
+
+    #exames{
+        padding: 60px 0;
+    }
+
+    .card_equipe{
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    #equipe h2{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    
+    .contatos_form{
+        width: 100%;
+    }
+
+    .contatos_form form{
+        margin: 0 auto;
+    }
+
+    .map{
+        margin-top: 150px;
+        width: 100%;
+    }
+
+    .map iframe{
+        margin-top: 30px;
+        width: 95%;
+    }
+
+    .contatos_h2 h2{
+    text-align: center;
+
+    }
+
+     .rodape_logo, .rodape_historico, .rodape_redes_sociais{
+    width: 100%;
+    }
+
+    .hitorico{
+    text-align: center;
+   }
+   
+   .hitorico i{
+    display: none;
+   }
+   
+
+
+    
+
+}
